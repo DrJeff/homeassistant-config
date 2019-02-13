@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install by running:
-# wget -Nnv https://raw.githubusercontent.com/dale3h/homeassistant-config/master/wizard/mqtt-dasher-wizard.sh && bash mqtt-dasher-wizard.sh
+# wget -Nnv https://raw.githubusercontent.com/DrJeff/homeassistant-config/master/wizard/mqtt-dasher-wizard.sh && bash mqtt-dasher-wizard.sh
 
 me=$(whoami)
 
@@ -11,8 +11,7 @@ MQTT_DASHER_CONF=$MQTT_DASHER_DIR/config.yml
 MQTT_DASHER_PROC=$MQTT_DASHER_DIR/process.json
 MQTT_DASHER_WRAP=$MQTT_DASHER_DIR/mqtt-dasher
 
-echo "MQTT Dasher Quick Installer"
-echo "Copyright(c) 2016 Dale Higgs <https://gitter.im/dale3h>"
+echo "MQTT Dasher Quick Installer From Dale"
 echo
 
 echo "Running apt-get preparation"
